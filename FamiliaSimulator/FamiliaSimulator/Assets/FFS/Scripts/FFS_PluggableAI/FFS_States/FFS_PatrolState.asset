@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aca211fd77a4284db607ea4023f8b24, type: 3}
+  m_Name: FFS_PatrolState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 9ff6b1dceb4229049a71e620b125cd3a, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 885cd9779a7540246ae3974b0db3a77e, type: 2}
+    trueState: {fileID: 11400000}
+    falseState: {fileID: 11400000, guid: 339071e663cc20142b4f308fd08a1c0a, type: 2}
